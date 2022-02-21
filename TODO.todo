@@ -1,0 +1,15 @@
+Craeting Next Js APP
+    npx create-next-app learning-next-js --use-npm
+
+
+Installing TailWind
+    -npm install -D tailwindcss
+    -npx tailwindcss init
+    -setUp tailwind.config.js and Add this
+    {content: ["./src/**/*.{html,js}"],}
+
+    -Paste this in gloabl.css 
+    {   @tailwind base;
+        @tailwind components;
+        @tailwind utilities;
+    }     
